@@ -12,17 +12,17 @@ export default function About() {
   const socials = [
     {
       name: "X",
-      url: "https://www.twitter.com/jane-doe",
+      url: "https://x.com/alagranpuchic/with_replies",
       icon: <X />,
     },
     {
       name: "GitHub",
-      url: "https://www.github.com/jane-doe",
+      url: "https://github.com/Nestorhernandez23",
       icon: <Github />,
     },
-    {
+    {   
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/jane-doe",
+      url: "https://www.linkedin.com/in/nestor-hernandez100/",
       icon: <Linkedin />,
     },
   ];
