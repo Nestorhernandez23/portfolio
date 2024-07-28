@@ -32,11 +32,11 @@ export default function About() {
       <div className="order-2 col-start-1 row-span-3 xl:order-1">
         <TitleCard
           profile={false}
-          title="I'm Jane. I live in New York City, where I develop the future."
+          title="I'm Nestor. I live in Orem, Utah where I develop the future."
           paragraphs={[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur turpis et risus facilisis vestibulum. Integer luctus erat eu rutrum aliquam. Pellentesque eget rhoncus mauris. Etiam pretium neque leo, non semper erat aliquam porttitor. Pellentesque finibus vehicula euismod. Sed imperdiet diam sed tortor porttitor pellentesque. Sed venenatis lacus lobortis augue pretium, non venenatis libero posuere. Praesent quis elit molestie, facilisis nisi vitae, sagittis augue.",
-            "Nunc ornare hendrerit imperdiet. Morbi id porttitor justo. Maecenas ac consequat mi. Mauris ullamcorper lobortis orci iaculis auctor. Praesent pellentesque lacus sed metus volutpat tincidunt. Pellentesque euismod nulla augue, ac euismod augue hendrerit at. Nullam augue risus, ornare at mollis quis, iaculis in neque. Mauris ligula orci, sagittis sit amet metus sed, finibus semper nulla. Mauris ut condimentum massa. Donec nec tincidunt lectus. Curabitur commodo et ex vel dignissim. Fusce varius turpis nec augue sagittis varius. Mauris blandit purus eu purus finibus, et cursus diam finibus. Phasellus pharetra congue aliquam.",
-            "Ut risus libero, tristique quis blandit et, maximus eget arcu. Donec nulla leo, laoreet vitae nibh nec, pulvinar facilisis nulla. Curabitur sagittis augue sed enim rhoncus, sed posuere enim vulputate. Donec dapibus arcu eget ligula porta, non viverra arcu tristique. Nunc ut turpis libero. Quisque at justo sodales, consequat diam non, suscipit sem. Duis et massa id orci egestas suscipit in vel justo. Aenean venenatis id dui eget consequat. Nullam iaculis euismod velit vitae luctus. Nulla facilisi.",
+            "I am originally from El Salvador and am currently pursuing my Associate's degree in Computer Science at Ensign College. My journey into the world of web development began with learning the fundamentals of HTML and CSS, which laid the foundation for my understanding of web structure and design. These languages enabled me to create visually appealing and well-structured websites, fostering a strong interest in front-end development",
+            "As I delved deeper into web technologies, I expanded my skill set to include JavaScript, which has been instrumental in bringing interactivity and dynamic features to my projects. My proficiency in JavaScript led me to explore modern frameworks like React and Next.js. These powerful tools have allowed me to build more complex and responsive web applications, enhancing user experiences and optimizing performance. React's component-based architecture and Next.js's server-side rendering capabilities have been particularly impactful in my work.",
+            "Throughout my studies at Ensign College, I have continually applied my knowledge in various projects, from simple static websites to dynamic, full-stack applications. This hands-on experience has not only solidified my technical skills but also deepened my understanding of best practices in web development. I am passionate about creating efficient, user-friendly applications and am excited to continue learning and growing in this ever-evolving field.",
           ]}
         />
       </div>
@@ -72,7 +72,7 @@ export default function About() {
           target="_blank"
         >
           <EmailComponent />
-          <p>jhon@email.com</p>
+          <p>nestorisraelhernandez@gmail.com</p>
         </Link>
       </div>
     </div>
