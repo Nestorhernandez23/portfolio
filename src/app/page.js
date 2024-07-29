@@ -14,17 +14,17 @@ export default function Home() {
   const links = [
     {
       name: "X",
-      url: "https://www.twitter.com/jane-doe",
+      url: "https://x.com/alagranpuchic/with_replies",
       icon: <X />,
     },
     {
       name: "GitHub",
-      url: "https://www.github.com/jane-doe",
+      url: "https://github.com/Nestorhernandez23",
       icon: <Github />,
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/jane-doe",
+      url: "https://www.linkedin.com/in/nestor-hernandez100/",
       icon: <Linkedin />,
     },
   ];
@@ -53,7 +53,7 @@ export default function Home() {
           profile={true}
           title={"Software engineer, father, and believer"}
           paragraphs={[
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur turpis et risus facilisis vestibulum. Integer luctus erat eu rutrum aliquam. Pellentesque eget rhoncus mauris. Etiam pretium neque leo, non semper erat aliquam porttitor. Pellentesque finibus vehicula euismod. Sed imperdiet diam sed tortor porttitor pellentesque. Sed venenatis lacus lobortis augue pretium, non venenatis libero posuere. Praesent quis elit molestie, facilisis nisi vitae, sagittis augue. ",
+            "Hello! I'm Nestor, a web developer passionate about creating dynamic and responsive web applications. Starting with HTML and CSS, I've advanced to using JavaScript and frameworks like React and Next.js. This portfolio showcases my projects and skills, reflecting my commitment to delivering engaging and user-friendly experiences. Enjoy exploring my work! ",
           ]}
         />
         <div className="flex gap-3">

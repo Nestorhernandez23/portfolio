@@ -11,7 +11,7 @@ const TitleCard = ({ profile = false, title, paragraphs }) => {
           width={240}
           height={240}
           alt="Profile Picture"
-          className="h-16 w-16 rounded-full border border-zinc-800 border-opacity-5 shadow-lg shadow-zinc-800/5"
+          className="h-32 w-32 rounded-full border border-zinc-800 border-opacity-5 shadow-lg shadow-zinc-800/5"
         />
       </div>
     );

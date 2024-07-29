@@ -5,17 +5,17 @@ import TitleCard from "@/components/structure/TitleCard/TitleCard.jsx";
 export default function Projects() {
   const projects = [
     {
-      logo: "/ensignlogo.png",
-      name: "Company 1",
+      logo: "/landingpage.png",
+      name: "FitClub",
       content:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Interdum habitasse aenean neque quam torquent eu penatibus!",
-      link: "#",
+        "",
+      link: "https://nestorhernandez23.github.io/landing-page/",
     },
     {
       logo: "/ensignlogo.png",
       name: "Company 2",
       content:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Interdum habitasse aenean neque quam torquent eu penatibus!",
+        "Lorem ifdfdscing elit. Interdum habitasse aenean neque quam torquent eu penatibus!",
       link: "#",
     },
     {

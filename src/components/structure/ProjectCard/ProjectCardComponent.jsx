@@ -10,9 +10,9 @@ const ProjectCard = ({ logo, name, content, link = "#" }) => {
         <Image
           src={logo}
           alt={`${name} Logo`}
-          width={40}
-          height={40}
-          className="project-card-logo"
+          width={500}
+          height={800}
+          className="project-card-logo h-100 w-90 quaility = {100} rounded-lg object-scale-down  drop-shadow-xl" 
         />
         <div className="dark:text-white  text-black ">
           <h2 data-testid="projectCardName">{name}</h2>
