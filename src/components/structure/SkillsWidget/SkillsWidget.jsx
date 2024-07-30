@@ -11,7 +11,7 @@ const SkillsWidget = () => {
     {
       name: "Javascript",
       icon: <JavascriptComponent />,
-      progress: 90,
+      progress: 75,
     },
     {
       name: "HTML",
@@ -26,17 +26,16 @@ const SkillsWidget = () => {
   ];
 
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between">
-      <div className="rounded-2xl border border-zinc-100 p-6">
-        <div className="flex items-center gap-3">
+    <div className="flex flex-col lg:flex-row lg:justify-between ">
+      <div className="rounded-2xl border border-zinc-100 p-6 ">
+        <div className="flex items-center gap-3 ">
           <Lightning />
-          <h2 className="font-bold text-zinc-900 dark:text-zinc-100">Skills</h2>
+          <h2 className="font-bold text-zinc-900 dark:text-zinc-100 ">Skills</h2>
         </div>
-        <p className="text-sm. mb-4 text-gray-600 dark:text-zinc-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-          mi.
+        <p className="text-sm. mb-4 text-gray-600 dark:text-zinc-400 ">
+        I specialize in creating responsive and interactive user interfaces. My expertise includes:
         </p>
-        <div className="flex w-full flex-col gap-4 pt-6">
+        <div className="flex w-full flex-col gap-4 pt-6 ">
           {skills.map((skill, index) => (
             <Skills
               key={index}

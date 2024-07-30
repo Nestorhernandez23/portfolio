@@ -6,7 +6,7 @@ import MoonComponent from "../../ui/icons/moon";
 import Button from "../../ui/button/button";
 
 const Toggle = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     if (isDark) {

@@ -20,7 +20,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="text-xs text-zinc-400 dark:text-zinc-400 md:text-sm">
-        <p>&copy; 2024 John Doe. All rights reserved</p>
+        <p>&copy; 2024 Nestor Hernandez. All rights reserved</p>
       </div>
     </footer>
   );

@@ -53,7 +53,7 @@ export default function Home() {
           profile={true}
           title={"Software engineer, father, and believer"}
           paragraphs={[
-            "Hello! I'm Nestor, a web developer passionate about creating dynamic and responsive web applications. Starting with HTML and CSS, I've advanced to using JavaScript and frameworks like React and Next.js. This portfolio showcases my projects and skills, reflecting my commitment to delivering engaging and user-friendly experiences. Enjoy exploring my work! ",
+            "Hello! I'm Nestor, a web developer passionate about creating dynamic and responsive web applications. Starting with HTML and CSS, I've advanced to using JavaScript, frameworks like React and Next.js, and Java for backend development. This portfolio showcases my projects and skills, reflecting my commitment to delivering engaging and user-friendly experiences. Enjoy exploring my work! ",
           ]}
         />
         <div className="flex gap-3">
