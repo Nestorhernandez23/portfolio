@@ -36,7 +36,7 @@ export default function Projects() {
       logo: "/file.png",
       name: "CSS Color Markers",
       content:
-        "In the CSS Color Markers project, I designed a set of colored markers, exploring various methods for setting color values and experimenting with color pairings. This project allowed me to deepen my understanding of CSS color properties and create visually appealing designs by effectively combining different colors.",
+        "In the CSS     color Color Markers project, I designed a set of colored markers, exploring various methods for setting color values and experimenting with color pairings. This project allowed me to deepen my understanding of CSS color properties and create visually appealing designs by effectively combining different colors.",
       link: "https://github.com/Nestorhernandez23/CSS-Color-Markers.git",
     },
    
