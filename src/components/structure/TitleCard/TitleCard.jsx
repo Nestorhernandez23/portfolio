@@ -6,13 +6,14 @@ const TitleCard = ({ profile = false, title, paragraphs }) => {
   if (profile)
     profilePicture = (
       <div className="flex w-fit rounded-full bg-white bg-opacity-90 p-[2px] focus:outline focus:outline-1 focus:outline-teal-400">
-        <Image
+        {/* <Image
           src={"/Profile.jpg"}
           width={240}
           height={240}
           alt="Profile Picture"
           className="h-32 w-32 rounded-full border border-zinc-800 border-opacity-5 shadow-lg shadow-zinc-800/5"
-        />
+        /> */}
+        <img src="/Profile.jpg" alt="profile" className="h-32 w-32 rounded-full border border-zinc-800 border-opacity-5 shadow-lg shadow-zinc-800/5" />
       </div>
     );
 
