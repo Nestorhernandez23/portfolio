@@ -8,7 +8,8 @@ export default function Projects() {
       logo: "/landingpage.png",
       name: "FitClub",
       content:
-        "For the Fitclub Gym website, I created a visually appealing landing page using HTML and CSS. This page features a clean, engaging design that effectively showcases the gym's offerings, including facilities, classes, and membership options. By leveraging HTML for structure and CSS for styling, I ensured the landing page is both user-friendly and attractive, providing a great first impression for potential members.",
+        "  For the Fitclub Gym website, I created an attractive landing page using HTML and CSS. It features a clean design that showcases the gym's facilities, classes, and membership options, ensuring a user-friendly and engaging experience for potential members.",
+
       link: "https://nestorhernandez23.github.io/landing-page/",
     },
     {
@@ -45,7 +46,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col gap-6">
       <TitleCard
-        title="Things I've Made Trying to Put my Dent Into the Universe"
+        title=""
         paragraphs={[
           "Welcome to my portfolio! Here, you'll find a showcase of my work across various projects, demonstrating my skills in HTML, CSS, JavaScript, and Java. Each project highlights my journey and growth as a web developer, from crafting visually engaging web pages to building dynamic, interactive applications. Explore my projects to see how I've combined these technologies to create unique and functional solutions. Thank you for visiting, and I hope you enjoy what you see!",
         ]}
@@ -55,6 +56,7 @@ export default function Projects() {
           <ProjectCard key={index} {...project} />
         ))}
       </div>
+      
     </div>
   );
 }
